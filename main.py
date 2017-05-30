@@ -62,7 +62,7 @@ def access(address):
 
 if __name__=='__main__':
     url = 'http://www.kuaidaili.com/free/inha/'
-    address = 'https://www.maimemo.com/share/page/?uid=1512656&pid=874'
-    #get_ip(url, 10)
-    #useful_ip()
+    address = 'https://www.maimemo.com/share/page/?uid=1512656&pid=uid'
+    get_ip(url, 10)
+    useful_ip()
     access(address)
